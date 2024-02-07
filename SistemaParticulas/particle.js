@@ -13,8 +13,8 @@ var particulas = [];
 function Particula(x, y) {
   this.x = x;
   this.y = y;
-  this.velocidadX = Math.random() * 2 - 1;
-  this.velocidadY = Math.random() * 5 - 1;
+  this.velocidadX = Math.random() * 3 - 1;
+  this.velocidadY = Math.random() * 3 - 1;
 
   this.actualizar = function () {
     this.x += this.velocidadX;
@@ -33,7 +33,7 @@ function Particula(x, y) {
 }
 
 // Crea 100 partículas en posiciones aleatorias
-for (var i = 0; i < 500; i++) {
+for (var i = 0; i < 800; i++) {
   particulas.push(
     new Particula(Math.random() * canvas.width, Math.random() * canvas.height)
   );
