@@ -1,0 +1,27 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
